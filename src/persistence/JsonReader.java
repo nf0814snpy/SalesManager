@@ -85,8 +85,9 @@ public class JsonReader {
         int price = jsonObject.getInt("price");
         int id = jsonObject.getInt("id");
         String categoryString = jsonObject.getString("category");
+        String imagePath = jsonObject.getString("imagePath");
         Category category = Category.valueOf(categoryString);
-        Product product = new Product(name, quantity, price,category);
+        Product product = new Product(name, quantity, price,category,imagePath);
         productList.addProduct(product);
     }
 

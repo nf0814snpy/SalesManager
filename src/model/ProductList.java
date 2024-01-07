@@ -43,13 +43,30 @@ public class ProductList implements Writable{
         return result;
     }
 
+    public void removeProduct(Product product) {
+        for(Product p: productList) {
+            if (product.getID() < p.getID()) {
+                p.decreaseThisID();
+            }
+        }
+        productList.remove(product);
+        product.decreaseMutualID();
+
+    }
+
+    public Product getProductFromName(String name) {
+        for(Product p: productList) {
+            if(name.equals(p.getName())) {
+                return p;
+            }
+        }
+        return null;
+    }
+
     public void addProduct(Product product) {
         productList.add(product);
     }
 
-    public void removeProduct(Product product) {
-        productList.remove(product);
-    }
 
     public String getProductName(int productID) {
         String result = "";
