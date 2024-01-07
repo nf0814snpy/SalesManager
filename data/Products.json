@@ -1,0 +1,23 @@
+{"productList": [
+    {
+        "quantity": 10,
+        "price": 500,
+        "name": "No476家内安全御守(内符入)",
+        "id": 0,
+        "category": "お守り"
+    },
+    {
+        "quantity": 10,
+        "price": 500,
+        "name": "白神矢G(絵馬・赤短冊・鈴・ﾘﾎﾞﾝ付)60cm",
+        "id": 1,
+        "category": "その他"
+    },
+    {
+        "quantity": 10,
+        "price": 500,
+        "name": "祈願絵馬(A)諸願成就",
+        "id": 2,
+        "category": "絵馬"
+    }
+]}

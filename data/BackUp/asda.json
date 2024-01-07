@@ -1,0 +1,32 @@
+{"salesRecords": [
+    {
+        "total": [{
+            "productID": 0,
+            "num": 2
+        }],
+        "month": 1,
+        "hour": 12,
+        "totalPrice": 0,
+        "year": 2024,
+        "day": 6,
+        "minute": 8
+    },
+    {
+        "total": [
+            {
+                "productID": 1,
+                "num": 3
+            },
+            {
+                "productID": 0,
+                "num": 1
+            }
+        ],
+        "month": 1,
+        "hour": 12,
+        "totalPrice": 0,
+        "year": 2024,
+        "day": 6,
+        "minute": 8
+    }
+]}
