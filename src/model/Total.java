@@ -25,6 +25,9 @@ public class Total implements Writable {
         this.totalPrice = 0;
     }
 
+    public int getTotalPrice() {
+        return totalPrice;
+    }
     /*
      * EFFECTS: return objects(employee) as json object
      */

@@ -20,6 +20,10 @@ public class Sale implements Writable{
         this.productID = id;
     }
 
+    public int getProductID() {
+        return productID;
+    }
+
     public int salePrice() {
         ProductList instance = ProductList.getInstance();
         return num * instance.getProductPrice(productID);
