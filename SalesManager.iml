@@ -7,6 +7,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="json-202103072" level="project" />
+    <orderEntry type="library" name="json-202103071" level="project" />
     <orderEntry type="library" name="json-20210307" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>
